@@ -85,7 +85,7 @@ export default function HeroLP({ fullImg }) {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="h-full bg-black bg-opacity-70"
+          className=""
         >
           <SectionWrapper className="">
             <div className="flex w-full">
