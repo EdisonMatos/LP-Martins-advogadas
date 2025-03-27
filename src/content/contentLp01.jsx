@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroLp.webp";
 import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 import { Baby } from "lucide-react";
