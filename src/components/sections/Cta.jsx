@@ -13,7 +13,7 @@ export default function Cta() {
 
   return (
     <div>
-      <SectionArea className="" >
+      <SectionArea className="squares" >
         <SectionWrapper>
           <SectionHeader
             className="text-center"
