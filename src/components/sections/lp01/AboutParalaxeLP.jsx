@@ -7,6 +7,8 @@ import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import { useNavigate } from "react-router-dom";
 
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+
 export default function AboutParalaxeLP({ logo }) {
   const navigate = useNavigate();
 
@@ -63,7 +65,7 @@ export default function AboutParalaxeLP({ logo }) {
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
                         label={contentLp01.about.buttonLabel}
-                        onClick={() => navigate("/whatsapp")}
+                        buttonLink={whatsappContactLink}
                         animation
                         className=""
                         icon={

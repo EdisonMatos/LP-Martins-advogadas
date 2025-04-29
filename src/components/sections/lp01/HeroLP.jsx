@@ -4,6 +4,9 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import contentLp01 from "../../../content/contentLp01";
 import { useNavigate } from "react-router-dom";
+import content from "../../../content/content";
+
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function HeroLP({ fullImg }) {
   const navigate = useNavigate();
@@ -83,10 +86,7 @@ export default function HeroLP({ fullImg }) {
           backgroundPosition: "top",
         }}
       >
-        <SectionArea
-          paddingTopAndBottom={false}
-          className=""
-        >
+        <SectionArea paddingTopAndBottom={false} className="">
           <SectionWrapper className="">
             <div className="flex w-full">
               <div className="flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
@@ -119,7 +119,7 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            onClick={() => navigate("/whatsapp")}
+                            buttonLink={whatsappContactLink}
                             animation
                             className="w-[100%] text-black"
                             icon={
