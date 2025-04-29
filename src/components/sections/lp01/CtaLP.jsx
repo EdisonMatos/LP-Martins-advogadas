@@ -5,12 +5,13 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import { useNavigate } from "react-router-dom";
+import content from "../../../content/content";
 
-
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function AboutParalaxeLP() {
-    const navigate = useNavigate();
-  
+  const navigate = useNavigate();
+
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -37,7 +38,7 @@ export default function AboutParalaxeLP() {
                 <Button
                   aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                   label={contentLp01.cta.buttonLabel}
-                  onClick={() => navigate("/whatsapp")}
+                  buttonLink={whatsappContactLink}
                   animation
                   icon={
                     <svg
