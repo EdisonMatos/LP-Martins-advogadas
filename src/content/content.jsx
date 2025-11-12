@@ -47,8 +47,8 @@ export const infos = {
   domain: "martinsadvogadas.adv.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "95791", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7352", // Apenas os 4 últimos números
+    firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0551", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
