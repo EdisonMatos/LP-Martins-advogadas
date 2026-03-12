@@ -1,5 +1,5 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp.webp";
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import { infos } from "./content";
 import { Baby } from "lucide-react";
 import { Users } from "lucide-react";

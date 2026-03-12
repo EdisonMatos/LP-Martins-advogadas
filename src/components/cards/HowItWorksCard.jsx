@@ -12,7 +12,7 @@ export default function HowItWorksCard({
         {number}
       </div>
       <h1 className="text-[20px] text-white font-bold mb-[24px]">{title}</h1>
-      <p className="text-[16px] text-white opacity-70 text-center desktop1:text-left w-full">
+      <p className="text-[16px] text-white opacity-70 text-center desktop1:text-left w-full font-secondFont">
         {description}
       </p>
     </div>
@@ -24,7 +24,7 @@ export default function HowItWorksCard({
         {number}
       </div>
       <h1 className="text-[20px] text-lighter font-bold mb-[24px]">{title}</h1>
-      <p className="text-[16px] text-lighter opacity-70 text-center desktop1:text-left w-full">
+      <p className="text-[16px] text-lighter opacity-70 text-center desktop1:text-left w-full font-secondFont">
         {description}
       </p>
     </div>

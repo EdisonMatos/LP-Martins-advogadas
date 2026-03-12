@@ -18,7 +18,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
       setBgImage(
         window.innerWidth < 1024
           ? content.texts.hero.heroImgPhone
-          : content.texts.hero.heroImg
+          : content.texts.hero.heroImg,
       );
     };
 
@@ -81,7 +81,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0 font-secondFont">
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>
@@ -180,7 +180,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start pb-[36px]">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0 font-secondFont">
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>
@@ -299,7 +299,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0 font-secondFont">
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>

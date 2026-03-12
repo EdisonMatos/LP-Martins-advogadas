@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
+
 export const theme = {
   extend: {
     colors: {
-      primary: "#F3D894",
+      primary: "#FFF9BA",
       secondary: "#3000002",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#300002",
+      bgSectionDark: "#430E16",
 
       links: "#0189BB",
       buttonColor: "#DBB14C",
@@ -18,11 +19,8 @@ export const theme = {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
-      // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Merriweather", "sans-serif"],
-      league: ["League Gothic"],
-      barlow: ["Barlow Condensed"],
+      mainFont: ["Cinzel", "serif"],
+      secondFont: ["Raleway", "sans-serif"],
     },
     fontSize: {
       paragraph1: "0.625rem",
