@@ -54,7 +54,7 @@ export default function AboutParalaxeLP({ logo }) {
                     titleColorSet="text-white"
                   />
                   <MotionDivDownToUp>
-                    <p className="font-mainFont mb-[36px]">
+                    <p className="font-secondFont mb-[36px]">
                       {contentLp01.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
