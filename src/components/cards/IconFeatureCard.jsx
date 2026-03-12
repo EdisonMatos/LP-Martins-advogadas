@@ -11,7 +11,7 @@ export default function IconFeatureCard(props) {
       <h1 className="h-auto font-bold font-mainFont text-title3 text-center mb-[16px] text-black">
         {title}
       </h1>
-      <p className="text-center text-black opacity-70 font-mainFont w-[90%] pb-4">
+      <p className="text-center text-black opacity-70 w-[90%] pb-4 font-secondFont">
         {paragraph}
       </p>
       {children}

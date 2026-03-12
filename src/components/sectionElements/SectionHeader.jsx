@@ -29,7 +29,7 @@ export default function SectionHeader({
     if (miniTitleBgColor) miniTitleBgColor = "bg-secondary ";
   } else {
     miniTitleTextColor = "text-black";
-    titleColor =  titleColorSet ?? "text-secondary";
+    titleColor = titleColorSet ?? "text-secondary";
     subtitleColor = subtitleColorSet ?? "text-darker text-opacity-80";
     if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
   }
@@ -56,7 +56,7 @@ export default function SectionHeader({
       <div>
         <div className={`${miniTitleSpace}`}>
           <div
-            className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-md inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+            className={`py-[4px] font-bold px-[12px] font-secondFont text-paragraph2 rounded-md inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
           >
             <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
           </div>
